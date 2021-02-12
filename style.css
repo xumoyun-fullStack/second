@@ -1,0 +1,18 @@
+@import './css/header.css';
+@import './css/main.css';
+@import './css/footer.css';
+@import './fonts/style.css';
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 2000px;;
+}
+.container{
+    width:980px;
+    margin: 0 auto;
+    height:1650px;
+    
+}

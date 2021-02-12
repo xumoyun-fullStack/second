@@ -1,0 +1,33 @@
+footer{
+    height:310px;
+    background-color: #f8f8f8;
+    border-top:1px solid #e1e0e0;
+}
+
+.brend {
+    
+    text-align: center;
+    padding-top:80px;
+} 
+.brend a{
+    font-family: 'eurofurence  regular';
+    font-weight: normal;
+    font-size: 40px;
+    color:#292929;
+    text-decoration: none;
+}
+.common{
+    color:#58c93a;
+}
+.info{
+    font-family: 'Open Sans Regular';
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    padding-top:30px;
+    color:#a6a6a6;
+}
+.site a{
+    color:#939292;
+    text-decoration: none;
+}
