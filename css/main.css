@@ -45,7 +45,7 @@
 .button_post_1{
     width:190px;
     height:40px;
-    border-radius: 16px;
+    border-radius: 50px;
     margin-top: 35px;
     margin:20px;
     border:1px solid #c2c2c2;
@@ -72,24 +72,25 @@
     border:none;
     border-left:5px solid #58c93a;
     background-color: #f8f8f8;
-}
-.search a{
     font-family: 'Open Sans Regular';
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;
-    display:inline-block;
-    width:100%;
+    padding-left:25px;
+    padding-top:25px;
     text-align: left;
-    margin-left:25px;
     color: #6c6969;
+ 
 }
+
+
 .search_input{
     width:278px;
     height:50px;
     margin-top:20px;
     border:1px solid #e1e0e0;
     padding-left:20px;
+    outline:none;
 }
 
 .category{
@@ -98,19 +99,17 @@
     border:none;
     border-left:5px solid #58c93a;
     background-color: #f8f8f8;
-    margin-top:60px;
-}
-.category a{
     font-family: 'Open Sans Regular';
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;
-    display:inline-block;
-    width:100%;
+    padding-left:25px;
+    padding-top:25px;
     text-align: left;
-    margin-left:25px;
     color: #6c6969;
+    margin-top:60px;
 }
+
 .category_list {
     margin:20px;
 }
@@ -128,26 +127,51 @@
     border-left:5px solid #58c93a;
     background-color: #f8f8f8;
     margin-top:50px;
-}
-.stay a{
     font-family: 'Open Sans Regular';
     font-weight: bold;
     text-decoration: none;
     font-size: 16px;
-    display:inline-block;
-    width:100%;
+    padding-left:25px;
+    padding-top:25px;
     text-align: left;
-    margin-left:25px;
     color: #6c6969;
 }
+
 
 .stay_input{
     width:278px;
     height:50px;
     margin-top:20px;
     border:1px solid #e1e0e0;
-   padding-left:20px;
+    padding-left:20px;
+    outline:none;
+    
 }
+
+#stay_id{
+    display: inline-block;
+    width: 100px;
+    padding-top:16px;
+    padding-bottom:16px;
+    margin-left:-20px;
+    padding-left:20px;
+    padding-right:155px;
+    border:none;
+    outline:none;
+}
+
+.form{
+    position: relative;
+}
+
+.icon{
+    display:block;
+    content:'';
+    position: absolute;
+   top:20px;
+   right:10px;
+
+} 
 
 .lab{
     width:280px;
